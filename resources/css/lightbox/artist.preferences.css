@@ -1,0 +1,104 @@
+/* CONTROL-PREFERENCES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#control.artist_preferences {width:65%;margin:0 auto;border-bottom:1px solid #1a1a1a;padding:0 0 20px 25px;}
+#control.artist_preferences div.tabs {width:78%;margin:0 auto;}
+
+#control.artist_preferences a {display:block;height:9px;background:url('/resources/images/imagetext/imagetexts.control.preferences.png') no-repeat;float:left;margin-right:20px;}
+
+#control.artist_preferences a.general {width:50px;background-position:0 0;}
+#control.artist_preferences a.general:hover {background-position:0 -9px;}
+#control.artist_preferences a.general_active,#control.artist_preferences a.general_active:hover {background-position:0 -18px;}
+
+#control.artist_preferences a.appearance {width:75px;background-position:-52px 0;}
+#control.artist_preferences a.appearance:hover {background-position:-52px -9px;}
+#control.artist_preferences a.appearance_active,#control.artist_preferences a.appearance_active:hover {background-position:-52px -18px;}
+
+#control.artist_preferences a.account {width:56px;background-position:-129px 0;margin-right:0;}
+#control.artist_preferences a.account:hover {background-position:-129px -9px;}
+#control.artist_preferences a.account_active,#control.artist_preferences a.account_active:hover {background-position:-129px -18px;}
+
+#control.artist_preferences a.profile_editor {width:92px;background-position:-185px 0;}
+#control.artist_preferences a.profile_editor:hover {background-position:-185px -9px;}
+#control.artist_preferences a.profile_editor_active,#control.artist_preferences a.profile_editor_active:hover {background-position:-185px -18px;}
+
+#control.artist_preferences a.comments_notifications {width:164px;background-position:-279px 0;}
+#control.artist_preferences a.comments_notifications:hover {background-position:-279px -9px;}
+#control.artist_preferences a.comments_notifications_active,#control.artist_preferences a.comments_notifications_active:hover {background-position:-279px -18px;}
+
+#control.artist_preferences a.license {width:46px;background-position:-446px 0;}
+#control.artist_preferences a.license:hover {background-position:-446px -9px;}
+#control.artist_preferences a.license_active,#control.artist_preferences a.license_active:hover {background-position:-446px -18px;}
+
+/* CONTENT-PREFERENCES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#content_black.artist_preferences {}
+
+#content_black.artist_preferences .form {width:90%;}
+#content_black.artist_preferences .form input.text,#content_black.artist_preferences .form textarea {width:99%;}
+#content_black.artist_preferences .form .next {margin-top:40px;}
+#content_black.artist_preferences .form .subnext {margin-top:10px;}
+/*
+#content_black.artist_preferences .form .prompt {position:relative;top:-2px;}
+#content_black.artist_preferences .form .indicator {position:relative;top:-1px;}
+*/
+#content_black.artist_preferences span.focus {position:relative;padding-right:55px;}
+#content_black.artist_preferences a.edit_focus {position:absolute;right:0;top:2px;display:block;width:42px;height:24px;background:url('/resources/images/ibutton.edit.png') 0 0 no-repeat;margin-left:10px;opacity:0.6;filter:alpha(opacity=60);}
+#content_black.artist_preferences a.edit_focus:hover {opacity:1.0;filter:alpha(opacity=100);}
+
+#content_black.artist_preferences div.toggle_switch {width:75%;margin-top:10px;}
+#content_black.artist_preferences div.toggle_switch a.switch_off div.bar {background:#1a1a1a;}
+#content_black.artist_preferences div.toggle_switch a.switch_on div.bar {background:#213309;}
+#content_black.artist_preferences div.switch_comments {width:75%;}
+#content_black.artist_preferences div.switch_notification {width:100%;}
+
+#content_black.artist_preferences div.license_types {width:95%;margin:0 auto;}
+#content_black.artist_preferences div.license_types div.primary {width:9%;}
+#content_black.artist_preferences div.license_types div.primary span {display:block;float:right;}
+
+#content_black.artist_preferences #avatar_container #upload_image {width:225px;height:225px;background:#000;}
+
+#content_black.artist_preferences #themes {padding:30px 10px 0 10px;}
+#content_black.artist_preferences #themes div.theme {display:block;padding:0px;border:2px solid #1a1a1a;-moz-border-radius:10px;-webkit-border-radius:10px;margin-bottom:40px;cursor:pointer;background:#000000;position:relative;}
+#content_black.artist_preferences #themes div.theme:hover {background:#111111;}
+#content_black.artist_preferences #themes div.theme_current,#content_black.artist_preferences #themes div.theme_current:hover {cursor:auto;background:#111111;}
+#content_black.artist_preferences #themes div.theme span.theme_name {display:inline-block;font-size:20px;color:#996600;position:absolute;right:-20px;top:-20px;background:#000000;padding:5px 15px;-moz-border-radius:20px;-webkit-border-radius:18px 18px;border:2px solid #1a1a1a;-moz-box-shadow:1px 1px 2px #000000;-webkit-box-shadow:1px 1px 2px #000000;}
+#content_black.artist_preferences #themes div.theme div.hotclick {padding:20px;}
+#content_black.artist_preferences #themes div.theme img.screenshot {display:block;width:100%;border-right:0px solid #111111;}
+#content_black.artist_preferences #themes div.theme div.info {width:30%;height:100%;margin-left:20px;padding:10px;}
+#content_black.artist_preferences #themes div.theme div.info span.name {display:block;font-size:30px;color:#996600;}
+#content_black.artist_preferences #themes div.theme div.info span.subname {display:block;font-size:18px;color:#444444;margin-top:5px;}
+#content_black.artist_preferences #themes div.theme div.info p.desc {margin-top:20px;font-size:1.3em;color:#555555;font-size:1.6em;}
+#content_black.artist_preferences #themes div.theme:hover div.info p.desc,#content_black.artist_preferences #themes div.theme_current div.info p.desc {color:#777777;}
+
+#content_black.artist_preferences #themes div.theme div.settings {width:100%;height:auto;margin-top:10px;border-top:0px solid #1a1a1a;background:#000000;padding:20px 0 20px 0;-moz-border-radius:10px;-webkit-border-radius:10px;}
+#content_black.artist_preferences #themes div.theme div.settings div.dropdown {background:transparent;}
+#content_black.artist_preferences #themes div.theme div.settings span.name {display:block;font-size:18px;margin:5px 0 0 25px;color:#444444;}
+#content_black.artist_preferences #themes div.theme div.settings div.choice_dropdown {margin-left:30px;}
+
+#content_black.artist_preferences #themes div.theme div.settings div.custom_photo_picker {padding:20px;}
+#content_black.artist_preferences #themes div.theme div.settings div.thumbnail_row {margin:10px 0 0 4px;}
+#content_black.artist_preferences #themes div.theme div.settings div.thumbnail_row div.img_container {position:relative;width:140px;height:140px;float:left;border:2px solid #222222;margin-right:4px;margin-bottom:4px;}
+#content_black.artist_preferences #themes div.theme div.settings div.thumbnail_row div.img_container img {width:140px;height:140px;}
+#content_black.artist_preferences #themes div.theme div.settings div.thumbnail_row div.large,#content_black.artist_preferences #themes div.theme div.settings div.thumbnail_row div.medium,#content_black.artist_preferences #themes div.theme div.settings div.thumbnail_row div.small {display:none;}
+
+#content_black.artist_preferences #themes div.theme div.settings div.dimension_large div.img_container,#content_black.artist_preferences #themes div.theme div.settings div.dimension_large div.img_container img {width:185px;height:185px;}
+#content_black.artist_preferences #themes div.theme div.settings div.dimension_large div.large {display:inline;}
+#content_black.artist_preferences #themes div.theme div.settings div.dimension_medium div.img_container,#content_black.artist_preferences #themes div.theme div.settings div.dimension_medium div.img_container img {width:140px;height:140px;}
+#content_black.artist_preferences #themes div.theme div.settings div.dimension_medium div.medium {display:inline;}
+#content_black.artist_preferences #themes div.theme div.settings div.dimension_small div.img_container,#content_black.artist_preferences #themes div.theme div.settings div.dimension_small div.img_container img {width:90px;height:90px;}
+#content_black.artist_preferences #themes div.theme div.settings div.dimension_small div.small {display:inline;}
+
+
+#content_black.artist_preferences #themes div.theme div.settings div.thumbnail_row div.img_container a.remove {display:block;width:24px;height:24px;background:url('/resources/images/upload/upload_cancel.png') no-repeat;position:absolute;right:-7px;top:-7px;}
+
+
+#content_black.artist_preferences #themes div.theme div.settings div.scrolling_horizontal_gallery {display:block;width:98%;height:auto;overflow:auto;overflow-y:hidden;white-space:nowrap;margin:20px auto;}
+#content_black.artist_preferences #themes div.theme div.settings div.scrolling_horizontal_gallery img {border:2px solid #333333;}
+
+/* gallery type */
+#content_black.artist_preferences div.gallery_types span {line-height:1.2;}
+
+/* toggle switch */
+#content_black.artist_preferences .form .toggle_switch {height:20px;padding:3px;background:#000000;}
+
+

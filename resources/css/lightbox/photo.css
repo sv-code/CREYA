@@ -1,0 +1,77 @@
+@import url('exif.css');
+
+/* CONTROL TABS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#control_tabs {border:none;}
+
+/* CONTROL HEADER */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#control_header a.avatar {display:none2;}
+#control_header h2.artist_dname_photo {font-size:1.8em;position:relative;top:4px;} 
+/*#header_divider.delayed_change {background:#000000;}*/
+
+#control_header span.title_genre {display:block;margin:15px 0 0 20px;color:#333333;font-size:1.1em;}
+#control_header span.title_genre strong {color:#555555;}
+#control_header #photo_genre.dropdown {margin:7px 0 0 -9px;z-index:5000;background:none;}
+#control_header #photo_genre.dropdown a.selected {background:none;}
+#control_header #photo_genre.dropdown a.choice {background:transparent url('/resources/images/bg/bg.form.dropdown.png') repeat-y;}
+/*#control_header #photo_genre.dropdown a.selected:hover {background:#000000 url('/resources/images/bg/bg.forms.input.png') 0 0 no-repeat;}*/
+
+/* CONTROL HEADER - ICONLINKS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#control_header #iconlinks div.photo a {background-position:0 0;}
+#control_header #iconlinks div.photo:hover a {background-position:0 -27px;}
+#control_header #iconlinks div.photo_active a,#control_header #iconlinks div.photo_active:hover a {background-position:0 -54px;}
+
+#control_header #iconlinks div.comments a {background-position:-27px 0;}
+#control_header #iconlinks div.comments:hover a {background-position:-27px -27px;}
+#control_header #iconlinks div.comments_active a,#control_header #iconlinks div.comments_active:hover a {background-position:-27px -54px;}
+
+#control_header #iconlinks div.tags a {background-position:-54px 0;}
+#control_header #iconlinks div.tags:hover a {background-position:-54px -27px;}
+#control_header #iconlinks div.tags_active a,#control_header #iconlinks div.tags_active:hover a {background-position:-54px -54px;}
+
+/* SLIDE-CONTENT */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+div.content_divider {height:2px;}
+div.slidecontent {width:75%;margin-bottom:15px;}
+div.slidecontent .cdivider {background:#111111;}
+
+/* CONTENT */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#content_black {}
+#content_black .the_photo_container {position:relative;width:1024px;padding-top:30px;}
+#content_black .the_photo_container #thePhoto {}
+#content_black .the_photo_container #thePhoto .photo_info_container {display:none;}
+#content_black .the_photo_container #thePhoto .photo_info_container:hover {display:block;}
+#content_black .the_photo_container #thePhoto img {display:block;margin:0 auto;cursor:pointer;} 
+
+/* PHOTO-TEXT */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#photo_bucket {width:700px;margin:0 auto;padding:7px 10px 0 10px;/*border-left:2px solid #111111;border-right:2px solid #111111;border-bottom:2px solid #111111;-moz-border-radius:0 0 10px 10px;-webkit-border-radius:10px;*/overflow:hidden;}
+#photo_bucket div.title span {display:block;text-align:center;margin-top:15px;line-height:25px;border-bottom:0px solid #111111;padding-bottom:10px;color:#336699;font-size:2.2em;line-height:1.5em;}
+#photo_bucket.editable div.title span:hover {color:#999999;}
+#photo_bucket.editable div.title input {width:70%;font-size:22px;font-family:"Segoe UI SemiBold","Segoe UI",Corbel,"Lucida Sans",Helvetica,sans-serif;border:none;color:#336699;text-align:center;}
+#photo_bucket div.desc p {width:90%;margin:0 auto;padding:10px 10px 10px 10px;border-top:1px solid #111111;}
+#photo_bucket.editable div.desc p:hover {color:#999999;}
+#photo_bucket.editable div.desc p textarea {width:100%;padding:5px;font-size:1em;color:#666666;}
+/*#photo_bucket div.desc p,#photo_bucket div.desc p textarea {text-align:center;}*/
+/*#photo_bucket span.copyright {display:block;width:50%;margin:0px auto;text-align:center;border-top:1px solid #111111;padding:10px;font-size:1.2em;color:#333333;}*/
+#photo_bucket div.copydivider {width:50%;height:1px;margin:0 auto;background:#111111;}
+#photo_bucket div.copyright {width:50%;border-top:1px dotted #111111;padding:10px;margin:0px auto;}
+#photo_bucket div.copyright a {display:block;width:215px;margin:0 auto;}
+#photo_bucket div.copyright span.c_all_rights_reserved {margin:0 auto;}
+
+/* OVERRIDING comments template */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#section_comments {padding:0;}
+#section_comments .comment {}
+
+/* MINIMALISTIC */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#wrapper2.minimalistic {}
+#wrapper2.minimalistic #control_tabs,#wrapper2.minimalistic #control_header {display:none;}
+#wrapper2.minimalistic #content_black .the_photo_container {padding-top:50px;}
+
+
+

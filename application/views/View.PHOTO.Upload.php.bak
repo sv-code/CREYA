@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<? $this->load->view('Meta.HEADER'); ?>
+	<? $this->load->view('Meta.FORM'); ?>
+	<? $this->load->view('Meta.UPLOADER.MULTI'); ?>
+		
+	<title>Upload Photographs</title>
+	
+	<script type="text/javascript">
+		$(function() 
+		{
+			HideElementsOnPage();	
+			
+			BindPhotoTypeDropdown();
+		});
+		
+		var LoadFlash = function()
+		{
+			var selected_type = $('#upload_photo_type .selected').text();
+			
+			//alert('[DEBUG] '+selected_type);
+			if( selected_type != "select a genre")
+			{
+				//$("#photo_type option:first").remove();
+				$('#upload_browse').css('background-image','url(/resources/images/button.browse.png)');
+				createBrowseButton();
+			}
+		}
+		
+		var DropDownSelectedCallback = function()
+		{
+			LoadFlash();
+		}
+	</script>					
+	
+</head>
+
+<body>
+	
+	<? $this->load->view('Embed.HEADER'); ?>
+	
+	<div id="bg-wrapper-black"></div>
+	<div id="wrapper2">
+	
+	
+		<div id="main_black">
+			<!-- Control Bar -->
+			<div id="controls_black">
+				<h2 class="header left">Upload photographs</h2>
+			</div>
+			<div class="content_divider"></div>
+			<!-- END Control Bar -->
+			
+			<div id="content_black" class="fade_preload" style="width:100%">
+				<div id="save_cancel_preload" class="preloader_container"><div class="preloader"></div></div>	
+				
+				<div id="upload_file_input" class="form chalfmargin">
+					
+					<? 
+						$data['dropdown_id'] = 'upload_photo_type';
+						$data['dropdown_array'] = $photo_type_array;
+						$data['dropdown_array_key'] = 'photo_type_name'; 
+						$this->load->view('Embed.FORM.Dropdown',$data); 
+					?>
+					
+					<div class="clear"></div>
+					
+					<!--div id="upload_browse_title" class="next"><span class="title">choose multiple photographs</span></div-->
+					<div id="upload_browse_cancel" class="finput_margin">
+						<div id="upload_browse">
+							<!--img id="upload_browse_prompt" onclick="cancelAllUploads();" src="/resources/images/button.cancel_all.png"/-->
+						</div>
+						<div id="upload_cancel_all" class="chigher"><a href="#"><img onclick="cancelAllUploads();" src="/resources/images/button.cancel_all.png"/></a></div>
+						<!--div id="upload_prompt" class="chigh"><a href="#"><img onclick="cancelAllUploads();" src="/resources/images/button.cancel_all.png"/></a></div-->
+					</div>
+					
+				</div>
+				
+				<div class="content_divider"></div>
+				
+				<div id="upload_global_tags_input" class="form cmargin">
+					<div class="title"><span>global tags</span></div>
+					<input type="text" id="global_tags" class="upload_form_input text finput_margin" value="" name="global_tags"/>				
+				</div>
+					
+				<div class="content_divider ctmargin"></div>
+					
+				<div id="upload_output" class="content_secondary">
+										
+						<div id="upload_global_progress">
+						
+							<div class="form">
+								<div class="title"><span>upload progress</span></div>
+								<div id="global_progress_bar"><div id="total_progress" class="progress_bar_fill"></div></div>
+								<div id="global_upload_done"></div>
+								<div class="clear"></div>
+							</div>
+							
+						</div>
+					
+						<? $data['background_class'] = 'secondary'; 
+						$this->load->view('Embed.CONTENT.MultiUpload.Output',$data); ?>
+							
+							
+							
+						<!-- This div should be moved out once the background color bug is fixed -->
+						<div id="upload_save_all">
+							<a href="#">
+								<img  onClick="SaveUploadedPhotos();return false;" src="/resources/images/save_all_and_gallery.png"/>
+							</a>
+						</div>
+					</div>
+										
+				</div>
+					
+						
+																
+			</div>
+				
+		</div>
+	
+	</div>
+	<!-- END Wrapper 2 -->
+	
+	<? $this->load->view('Embed.USERPAD'); ?>
+	
+	<? $this->load->view('Embed.FOOTER'); ?>		
+	
+</body>
+</html>

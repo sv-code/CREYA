@@ -1,0 +1,110 @@
+/* CONTROL-HEADER */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#control_header h2.artist_dname {padding-top:5px;padding-right:20px;font-size:1.8em;}
+#control_header a.to_reviews h4 {color:#444444;}
+#control_header a.to_reviews:hover h4 {color:#999999;}
+
+/* TOGGLE SWITCH */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#review_request div.accept_reviews {width:169px !important;}
+#review_request div.accept_reviews a.switch span.choice {width:55px !important;}
+#review_request div.accept_reviews a.switch span.choice_on {width:84px !important;}
+#review_request div.accept_reviews a.switch_off div.bar {width:38% !important;}
+#review_request div.accept_reviews a.switch_on div.bar {width:65% !important;}
+
+/* REVIEW_REQUEST COMMON*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#review_request {}
+#review_request div.metric {margin-bottom:20px;}
+#review_request div.metric span.title {display:block;height:11px;background:url('/resources/images/imagetext/imagetext.review_metrics.png') no-repeat;margin-right:20px;}
+#review_request #impact.metric span.title {width:50px;background:url('/resources/images/imagetext/imagetext.review_metrics.png') 0 -11px no-repeat;}
+#review_request #balance.metric span.title {width:62px;background:url('/resources/images/imagetext/imagetext.review_metrics.png') 0 -22px no-repeat;}
+#review_request #technique.metric span.title {width:78px;background:url('/resources/images/imagetext/imagetext.review_metrics.png') 0 -33px no-repeat;}
+#review_request div.metric span.rating {width:30px;font-size:1.5em;}
+#review_request div.metric .ratebar {width:100%;height:5px;background:#000000;border:1px solid #333333;-moz-border-radius:5px 5px 5px 5px;}
+#review_request div.metric .ratebar .ratefill {width:0%;height:100%;background:#333333;}
+
+/* BLOCK-VIEW */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.jcrop-holder {margin:0 auto;}
+.jcrop-holder img {}
+.jcrop-vline,.jcrop-hline {background:#333333;}
+
+#control_header.review_request {position:relative;height:45px;}
+#control_header.review_request a.button_add_review {margin:10px 0 0 20px;}
+#control_header.review_request h4.quantifier,#control_header.review_request h4.title {position:absolute;left:44%;top:4px;color:#666666;font-size:1.6em;padding:8px 16px;/*border:2px solid #1a1a1a;background:#111111;border-top:none;-moz-border-radius-bottomleft:12px;-webkit-border-bottom-left-radius:12px;-moz-border-radius-bottomright:12px;-webkit-border-bottom-right-radius:12px;*/}
+#control_header.review_request h2.artist_dname {}
+
+#review_request.blockview {width:100%;overflow:hidden;}
+#review_request.blockview div.buttons {min-height:28px;}
+
+/* #review_request.blockview #ratings {position:relative;margin-top:5px;width:98.6%;height:auto;background:#000000;border:3px solid #111111;padding:1%;} */
+#review_request.blockview #ratings {position:relative;width:98%;background:#101010;padding:1%;border-top:0px solid #1a1a1a;}
+#review_request.blockview #ratings a.button_details {position:absolute;bottom:-12px;left:48%;border:3px solid #111111;}
+
+#review_request.blockview #ratings span#average {width:6%;display:block;background:#000000;border:3px solid #1a1a1a;padding:3px 10px 13px;font-size:28px;text-align:center;line-height:1;position:relative;}
+#review_request.blockview #ratings span#average #total_review_count {font-size:0.6em;text-align:right;padding:0.2em;position:absolute;left:-8px;top:-12px;background:#000000;}
+
+#review_request.blockview #ratings div#summary {display:none2;}
+#review_request.blockview #ratings div#metrics {width:91%;padding-top:9px;}
+#review_request.blockview #ratings div.metric {width:242px;position:relative;margin:0 5px 0 22px;}
+#review_request.blockview #ratings div.metric span.title {display:block;margin:0 0 5px 5px;}
+#review_request.blockview #ratings div#metrics div.metric div.ratebar  {width:100%;border:none;height:18px;background:transparent url('/resources/images/button/buttons.slim.png') -271px -422px no-repeat;padding:2px 0 0 2px;overflow:hidden;margin-top:1px;}
+#review_request.blockview #ratings div#metrics div.metric div.ratebar div.ratefill  {height:14px;background:transparent url('/resources/images/button/buttons.slim.png') -271px -439px no-repeat;}
+
+#review_request.blockview div.discussion {padding:40px 0;}
+#review_request.blockview div.discussion img {display:block;margin:0 auto;border:2px solid #111111;cursor:pointer;}
+#review_request.blockview div.discussion #discussion_body {width:70%;margin:30px auto;}
+#review_request.blockview div.discussion #discussion_body textarea {font-size:1em}
+
+#review_request.blockview #ratings div#metrics_input {width:100%;padding-top:5px;display:none;}
+#review_request.blockview #ratings div#metrics_input div.metric {position:relative;width:270px;}
+#review_request.blockview #ratings div#metrics_input div.metric div.header {background:#000000;padding:10px;}
+#review_request.blockview #ratings div#metrics_input div.metric span.title {margin:0 auto;}
+#review_request.blockview #ratings div#metrics_input div#impact span.title {background-position:0 -44px;}
+#review_request.blockview #ratings div#metrics_input div#balance span.title {background-position:0 -55px;}
+#review_request.blockview #ratings div#metrics_input div#technique span.title {background-position:0 -66px;}
+#review_request.blockview #ratings div#metrics_input div.metric span.desc {display:block;font-size:1.4em;line-height:1.5em;min-height:3em;margin-top:2px;text-align:center;}
+#review_request.blockview #ratings div#metrics_input div.metric span.rating {display:block;background:#000000;border:3px solid #1a1a1a;text-align:center;padding:1px 2px 6px 2px;margin:10px auto 20px auto;color:#666600;position:absolute;top:-20px;right:-10px;width:30px;font-size:1.5em;-moz-border-radius:15px;-webkit-border-radius:15px 12px;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider-horizontal {position:relative;width:100%;height:8px; border:2px solid #1a1a1a;background:#000000;margin-top:10px;margin-bottom:0px;opacity:0.6;filter:alpha(opacity=60);-moz-border-radius:5px;-webkit-border-radius:5px;z-index:2000;-moz-box-shadow:1px 1px 2px #000000;-webkit-box-shadow:1px 1px 2px #000000;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider-horizontal .ui-slider-handle {cursor:pointer;height:17px;width:17px;background:url('/resources/images/reviewrequest.sliderhandle.png') 0 0 no-repeat;top:-4px;margin-left:-0.3em;z-index:4000;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider-horizontal .ui-slider-handle:hover {background:url('/resources/images/reviewrequest.sliderhandle.png') 0 -17px no-repeat;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider-horizontal .ui-slider-handle:hover .ui-slider-tooltip {display:inline2;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider-horizontal .onclickdown {background:url('/resources/images/reviewrequest.sliderhandle.png') 0 -16px no-repeat;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider span.ui-slider-tic {height:8px;color:#1a1a1a;z-index:0;top:-1em;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider span.ui-slider-tic:first {display:none;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider li, .ui-slider dd {color:#eee;}
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider-range {background:transparent url('/resources/images/button/buttons.slim.png') -524px -442px no-repeat;}
+
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider .ui-state-active .ui-slider-tooltip, 
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider .ui-state-focus .ui-slider-tooltip, 
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider .ui-state-hover .ui-slider-tooltip {display:inline;position:absolute;top: -25px;margin-left:-10px;text-align: center;padding:8px 0 0;font-size: 11px;color:#CC9933;width:37px;height:42px;display:none;}
+
+
+#review_request.blockview #ratings div#metrics_input div.metric .ui-slider .ui-state-active .ui-slider-tooltip, .ui-slider .ui-state-focus .ui-slider-tooltip, .ui-slider .ui-state-hover .ui-slider-tooltip {display: none;}
+#review_request.blockview #ratings div#metrics_input div.metric textarea {display:block;margin:0 auto;width:83.5%;height:45px;border:1px solid #000000;border-top:none;display:none;padding-top:10px;background:#000000;-moz-border-radius:0;-webkit-border-radius:0;}
+#review_request.blockview #ratings div#metrics_input #general_comment {margin-top:15px;}
+#review_request.blockview #ratings div#metrics_input #general_comment textarea {width:95%;border:2px solid #1a1a1a;font-size:1.4em;padding:5px 10px;}
+#review_request.blockview #ratings div#metrics_input div.save {width:150px;margin:15px auto 10px auto;}
+#review_request.blockview #ratings div#metrics_input div.save span.cancel {display:block;position:relative;top:9px;margin-left:5px;}
+
+#review_request.blockview #ratings div#metrics_input a.button_add_remove {display:block;width:88.5%;height:18px;margin:0 auto;background:#000000 url('/resources/images/bg/bg.texture.finegrain.png') repeat;position:relative;top:-2px;padding:4px;}
+#review_request.blockview #ratings div#metrics_input a.button_add_remove span {width:72px;height:21px;display:block;text-align:center;margin:0 auto;opacity:0.6;filter:alpha(opacity=60);background:url('/resources/images/reviewrequest.add_remove.png') 0 0 no-repeat;}
+#review_request.blockview #ratings div#metrics_input a.button_add_remove span.list {width:120px;}
+#review_request.blockview #ratings div#metrics_input a.button_add_remove:hover span {opacity:1.0;filter:alpha(opacity=100);}
+
+#review_request.blockview #ratings div#metrics_input a.button_comment span {}
+#review_request.blockview #ratings div#metrics_input a.button_comment span.add {background-position:0 0;}
+#review_request.blockview #ratings div#metrics_input a.button_comment:hover span.add {background-position:0 -21px;} 
+#review_request.blockview #ratings div#metrics_input a.button_comment span.remove {background-position:0 -42px;}
+#review_request.blockview #ratings div#metrics_input a.button_comment:hover span.remove {background-position:0 -63px;}
+
+#review_request.blockview #ratings div#metrics_input a.button_crop_suggestion span {}
+#review_request.blockview #ratings div#metrics_input a.button_crop_suggestion span.add {background-position:0 -84px;}
+#review_request.blockview #ratings div#metrics_input a.button_crop_suggestion:hover span.add {background-position:0 -105px;} 
+#review_request.blockview #ratings div#metrics_input a.button_crop_suggestion span.remove {background-position:0 -126px;}
+#review_request.blockview #ratings div#metrics_input a.button_crop_suggestion:hover span.remove {background-position:0 -147px;}
+
+
+

@@ -1,0 +1,75 @@
+/* META PAGES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#main.meta {padding-top:30px;padding-bottom:30px;border-top:2px solid #1a1a1a;}
+
+#main.meta span.title {display:block;padding-bottom:2px;border-bottom:1px solid #1a1a1a;text-transform:uppercase;font-size:1.4em;color:#666600;margin-bottom:5px;}
+#main.meta p {margin-top:10px;margin-bottom:20px;}
+#main.meta ul li {color:#666666;font-size:1.3em;line-height:1.5em;margin-bottom:1em;} 
+#main.meta ul li strong,#main.meta ul li b {color:#999999;}
+#main.meta p strong.email {color:#999999;}
+
+#navigation_meta a.about {background-position:0 -53px;}
+#navigation_meta a.about_active,#navigation_meta a.about_active:hover {background-position:0 -69px;}
+#navigation_meta a.terms_of_service {background-position:-37px -53px;}
+#navigation_meta a.terms_of_service_active,#navigation_meta a.terms_of_service_active:hover {background-position:-37px -69px;}
+#navigation_meta a.privacy_policy {background-position:-128px -53px;}
+#navigation_meta a.privacy_policy_active,#navigation_meta a.privacy_policy_active:hover {background-position:-128px -69px;}
+#navigation_meta a.contact {background-position:-206px -53px;}
+#navigation_meta a.contact_active,#navigation_meta a.contact_active:hover {background-position:-206px -69px;}
+#navigation_meta a.faq {background-position:-252px -53px;}
+#navigation_meta a.faq_active,#navigation_meta a.faq_active:hover {background-position:-252px -69px;}
+#navigation_meta a.guidelines {background-position:-303px -53px;}
+#navigation_meta a.guidelines_active,#navigation_meta a.guidelines_active:hover {background-position:-303px -69px;}
+
+/* TERMS OF SERVICE */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#main span.notice {display:block;margin-bottom:20px;font-size:2.4em;text-align:center;color:#CC9933;}
+#main.terms_of_service p {padding-left:10px;}
+#main.terms_of_service ul {list-style:disc;}
+
+/* FAQ */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#main.faq ul {}
+#main.faq ul span.title {margin-top:40px;}
+#main.faq ul li {font-size:1em;}
+#main.faq ul li span.question {display:block;cursor:pointer;}
+#main.faq ul li span.question:hover,#main.faq ul li span.question_active,#main.faq ul li span.question_active:hover {color:#cccccc;}
+#main.faq ul li p {font-size:1.3em;border-bottom:1px dotted #1a1a1a;display:none;}
+#main.faq ul li span.question {margin-left:8px;}
+#main.faq ul li p {font-style:italic;padding:0 0 10px 8px;margin-bottom:10px;}
+
+/* GUIDELINES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#main.guidelines {padding-top:10px;}
+#main.guidelines p.intro {padding:0;color:#999999;margin:30px 0;} 
+#main.guidelines span.action {font-style:normal;font-style:italic;}
+#main.guidelines p {padding-left:20px;font-style:italic;}
+#main.guidelines p strong {font-size:1.1em;font-style:normal;}
+
+/* ABOUT-STORY*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#main.about_story {padding:20px 0;}
+#main.about_story div.aboutbg {width:869px;margin:0 auto;background:url('/resources/images/bg/bg.about.png') no-repeat;}
+#main.about_story #pagename {height:70px;background-position:0 0;margin-bottom:30px;}
+
+#main.about_story div#sections {width:300%;position:relative;left:0;}
+#main.about_story div.section {width:1024px;float:left;}
+#main.about_story div.section h1 {display:block;text-align:center;font-size:4em;color:#CC9933;margin:15px auto;}
+
+#main.about_story #section_portfolio {}
+#main.about_story #section_portfolio div.profiles {height:300px;background-position:0 -72px;}
+#main.about_story #section_portfolio div.galleries {height:365px;background-position:0 -372px;}
+
+#main.about_story #section_review {}
+#main.about_story #section_review div.review {height:300px;background-position:0 -742px;}
+#main.about_story #section_review div.crop_suggestion {height:600px;background-position:0 -1052px;}
+
+/* CONTACT */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#content_black.contact {padding:40px;}
+
+#content_black.contact blockquote {width:60%;font-size:1.3em;color:#444444;font-family:Arial, Helvetica, sans-serif;font-style:italic;margin-bottom:30px;}
+#content_black.contact blockquote light {color:#333333;}
+
+#content_black.contact p {font-size:1.6em;}
+#content_black.contact a {text-decoration:none;}

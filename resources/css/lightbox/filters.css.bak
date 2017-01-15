@@ -1,0 +1,56 @@
+#filters{position:fixed;bottom:0;width:100%;z-index:9999;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters.minimized {bottom:-56px;}
+#filters #filtercontrols{margin:0 auto;width:1050px;position:relative;}
+#filters a.filterUp {display:block;height:19px;width:78px;background:transparent url('/resources/images/filterToggle.png') 0 0 no-repeat;}
+#filters a.filterDown{background-position:0 -19px;}
+#filters .reset{display:block;position:absolute;right:-5px;top:3px;width:32px;height:32px;background:url('/resources/images/reset.png') no-repeat;}
+#filters .reset:hover{background-position:0 -31px;}
+#filters.minimized .reset {display:none;}
+#filters .filter-container{position:relative;margin:15px 10px 0 10px;float:left;} 
+#filters label{color:#666666;font-size:1.1em;margin-bottom:10px;display:block;padding-left:5px;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters label span {color:#cccccc;font-size:1.2em;} 
+#filters .filter-bar{background:transparent url('/resources/images/filter-bar.png') no-repeat;height:5px;width:125px;float:left;margin:0px 5px;position:relative;} 
+#filters .filter-container .ui-slider-handle{background:transparent url('/resources/images/filter-handle.png') no-repeat;width:14px;height:14px;overflow:hidden;position:absolute;top:-5px;}
+
+#filters #dock{margin:0 auto;background:transparent url('/resources/images/black_trans_80.png') repeat;width:1050px;height:60px;}
+#filters #tagBlock{float:left;margin:20px 10px 0 60px;}
+#filters #tags{background:transparent url('/resources/images/filterTagsL.png') no-repeat scroll left top;height:27px;padding:6px 0 0 10px;}
+#filters #tags .tagsL{background:transparent;border:none;color:#666;float:left;font-size:1.1em;margin:0;width:145px;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters #tags .SS{background:transparent;border:none;color:#666;float:left;font-size:1em;margin:0;width:895px;}
+#filters #tags .tagsR{float:left;position:relative;top:-6px;}
+
+#filters #typeBlock{float:left;padding:21px 5px 0 0;position:relative;}
+#filters a.type{background:transparent url('/resources/images/type.png') left top no-repeat;color:#666;display:block;width:135px;float:left;font-size:1.1em;height:25px;text-decoration:none;}
+#filters a.type span{background:transparent url('/resources/images/type_arrow.png') right top no-repeat;height:25px;line-height:23px;padding:0 41px 0 10px;display:block;font-size:1.1em;}
+#filters a.type:hover{color:#333;background-position:left bottom}
+#filters a.type:hover span{background-position:right bottom}
+#filters #typeDD{position:absolute;z-index:2000;top:-482px;left:1px;width:133px;display:block;}
+#filters #typeDD a{cursor:pointer;display:block;text-decoration:none;color:#666;font-size:1.1em;padding:5px 10px 8px 10px;border-left:1px solid #ccc;border-right:1px solid #ccc;background:#fff;}
+#filters #typeDD a:hover{color:#333;}
+#filters #typeDD a.first{padding-top:8px;-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}
+#filters #typeDD a.first span {font-size:1.1em;}
+
+
+#filters.shoebox_creator {bottom:-91px;}
+#filters.shoebox_creator  #dock {height:95px;}
+
+/* SMALL DOCK */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#filters.smalldock #dock {height:60px;}
+
+/* SECTION SEARCH */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#filters.section_search #tagBlock{margin:17px 10px 0 20px;}
+#filters.section_search #tagBlock .tagsLong {width:928px;background:transparent url('/resources/images/bg/bg.forms.input.png') 0 -160px no-repeat;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters.section_search #tagBlock input {font-size:1.3em;border:0px solid #333;height:20px;margin-top:2px;padding:7px 15px 0 15px;width:980px;}
+
+/* SHOEBOX CREATOR */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#filters .shoebox_creator {}
+#filters .shoebox_creator_input {background:#000;padding:10px 0 10px 42px;border-top:1px solid #1a1a1a;}
+#filters .shoebox_creator_input .prompt {margin:5px 10px 0 0px;}
+#filters .shoebox_creator_input .shoebox_name {width:710px;border:none;font-size:1.2em;margin-top:0px;margin-right:10px;}
+/*#filters .shoebox_creator_input .input_wrapper {width:700px;height:28px;background:transparent url('/resources/images/filterTagsL_long.png') left top no-repeat;padding:4px 0 0 10px;}
+#filters .shoebox_creator_input .tagsR {position:relative;top:0px;}*/
+
+

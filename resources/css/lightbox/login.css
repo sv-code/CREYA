@@ -1,0 +1,45 @@
+#LoginContainer  {padding-top:20px;width:420px;height:100px;}
+
+#LoginContainer .content_left {float:left;margin-right:20px;width:200px;}
+#LoginContainer .content_right {float:right;width:200px;}
+
+#LoginContainer input.text {width:75%;}
+
+#LoginContainer .logotag {margin-bottom:20px;}
+#LoginContainer .tagline {margin-top:5px;}
+
+#LoginContainer label {color:#444444;}
+#LoginContainer label.auth {font-size:1.3em;}
+#LoginContainer input.dname {text-align:right;}
+
+#LoginContainer .divider {width:100%;height:1px;background:#1a1a1a;margin-top:35px;}
+
+#LoginContainer .content_secondary {padding:20px;}
+#LoginContainer .content_secondary input.submit {margin-left:25px;}
+#LoginContainer .content_secondary input.checkbox {margin:10px 5px 0 15px;background-color:#000;}
+#LoginContainer .content_secondary span,#LoginContainer .content_secondary a.forgot {padding-top:10px;}
+#LoginContainer .content_secondary span {margin-left:5px;color:#555555;line-height:1.0;}
+#LoginContainer .content_secondary a.forgot {margin-left:20px;}
+#LoginContainer .content_secondary a.forgot:hover span {color:#777777;}
+
+#LoginContainer .indicator {position:absolute;top:55px;right:0;}
+#LoginContainer .prompt {position:absolute;top:58px;left:0;font-style:italic;color:#333;/*font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;*/}
+#LoginContainer .negative {margin-top:4px;margin-left:15px;}
+
+#LoginContainer input.submit {position:relative;top:2px;}
+/*#LoginContainer #password{margin-bottom:15px;}*/
+
+/* ----------------------- */
+
+#RequestInviteContainer {width:596px;}
+
+#RequestInviteContainer .content_left {float:left;margin-left:20px;}
+#RequestInviteContainer .form {margin-top:30px;}
+
+#RequestInviteContainer .form #invite_email {}
+#RequestInviteContainer .form #invite_work {}
+
+#RequestInviteContainer .form .indicator {position:relative;top:2px;}
+#RequestInviteContainer .form label {text-align:right;position:relative;right:2px;font-size:1.3em;}
+#RequestInviteContainer .form .text {width:235px;}
+#RequestInviteContainer .form textarea {width:235px;height:160px;}

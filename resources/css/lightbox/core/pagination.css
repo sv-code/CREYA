@@ -1,0 +1,64 @@
+/* MINI PAGINATION */
+.mini_pagination ul {width:94px;}
+.mini_pagination ul li a{display:block;width:24px;height:24px;text-indent:-9999px;float:left;margin-right:5px;}
+.mini_pagination ul li.previous a{background:url('/resources/images/pagination.mini.black.png') 0 0 no-repeat;}
+.mini_pagination ul li.previous a:hover{background:url('/resources/images/pagination.mini.black.png') 0 -24px no-repeat;} 
+.mini_pagination ul li.current {background:url('/resources/images/pagination.mini.black.png') -24px 0 no-repeat;display:block;width:24px;height:24px;float:left;margin-right:5px;font-size:1.1em;color:#666;text-align:center;padding-top:6px;overflow:hidden;font-family:Georgia,Arial,sans-serif;} 
+.mini_pagination ul li.next a{background:url('/resources/images/pagination.mini.black.png') -48px 0 no-repeat;} 
+.mini_pagination ul li.next a:hover{background:url('/resources/images/pagination.mini.black.png') -48px -24px no-repeat;} 
+.mini_pagination ul li.previous_none{width:24px;height:24px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.mini.black.png') 0 -48px no-repeat;}
+.mini_pagination ul li.next_none{width:24px;height:24px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.mini.black.png') -48px -48px no-repeat;}
+
+/* MAIN PAGINATION */
+.pagination {position:relative;width:100%;padding-top:5px;opacity:0.65;filter:alpha(opacity=65);}
+.pagination ul {position:relative;width:190px;left:45%;}
+.pagination ul li a{display:block;width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;}
+
+.pagination ul li.previous a{background:url('/resources/images/pagination.png') 0 0 no-repeat;}
+.pagination ul li.previous a:hover{background:url('/resources/images/pagination.png') 0 -25px no-repeat;} 
+.pagination ul li.previous_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') 0 -50px no-repeat;}
+
+.pagination ul li.first a{background:url('/resources/images/pagination.png') -25px 0 no-repeat;}
+.pagination ul li.first a:hover{background:url('/resources/images/pagination.png') -25px -25px no-repeat;} 
+.pagination ul li.first_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') -25px -50px no-repeat;}
+
+.pagination ul li.current {background:url('/resources/images/pagination.png') -50px 0 no-repeat;display:block;width:25px;height:25px;float:left;margin-right:5px;font-family:Georgia;font-size:1.2em;color:#666;text-align:center;padding-top:5px;overflow:hidden;} 
+
+.pagination ul li.last a{background:url('/resources/images/pagination.png') -75px 0 no-repeat;}
+.pagination ul li.last a:hover{background:url('/resources/images/pagination.png') -75px -25px no-repeat;} 
+.pagination ul li.last_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') -75px -50px no-repeat;}
+
+.pagination ul li.next a{background:url('/resources/images/pagination.png') -100px 0 no-repeat;}
+.pagination ul li.next a:hover{background:url('/resources/images/pagination.png') -100px -25px no-repeat;} 
+.pagination ul li.next_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') -100px -50px no-repeat;}
+
+/* STATIC PAGINATION */
+.pagination_static {position:fixed;top:50%;}
+.pagination_static ul {width:37px;height:90px;background:url('/resources/images/pagination.png') 0 -77px no-repeat;padding:15px 0 0 15px;}
+.pagination_static ul.left {position:relative;right:25px;z-index:2;}
+.pagination_static ul.right {position:relative;left:999px;z-index:1;}
+
+.pagination_static ul.single {width:40px;height:45px;background-position:-53px -77px;padding:17px 0 0 8px;}
+.pagination_static ul.single_left {position:relative;right:20px;z-index:2;}
+.pagination_static ul.single_right {position:relative;left:1006px;z-index:1;}
+
+.pagination_static ul li {margin-bottom:10px;}
+.pagination_static ul li a{display:block;width:25px;height:25px;text-indent:-9999px;}
+
+.pagination_static ul li.first a{background:url('/resources/images/pagination.png') -25px 0 no-repeat;}
+.pagination_static ul li.first a:hover{background:url('/resources/images/pagination.png') -25px -25px no-repeat;} 
+.pagination_static ul li.first_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') -25px -50px no-repeat;}
+
+.pagination_static ul li.previous a{background:url('/resources/images/pagination.png') 0 0 no-repeat;}
+.pagination_static ul li.previous a:hover{background:url('/resources/images/pagination.png') 0 -25px no-repeat;} 
+.pagination_static ul li.previous_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') 0 -50px no-repeat;}
+
+.pagination_static ul li.last a{background:url('/resources/images/pagination.png') -75px 0 no-repeat;}
+.pagination_static ul li.last a:hover{background:url('/resources/images/pagination.png') -75px -25px no-repeat;} 
+.pagination_static ul li.last_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') -75px -50px no-repeat;}
+
+.pagination_static ul li.next a{background:url('/resources/images/pagination.png') -100px 0 no-repeat;}
+.pagination_static ul li.next a:hover{background:url('/resources/images/pagination.png') -100px -25px no-repeat;} 
+.pagination_static ul li.next_none{width:25px;height:25px;text-indent:-9999px;float:left;margin-right:5px;background:url('/resources/images/pagination.png') -100px -50px no-repeat;}
+
+.pagination_static ul li.first_none a,.pagination_static ul li.previous_none a, .pagination_static ul li.next_none a,.pagination_static ul li.last_none a {display:none;}

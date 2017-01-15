@@ -1,0 +1,84 @@
+#main_black.pageminheightby2 {min-height:600px;}
+#main_black .cdivider {background:#111111;}
+
+#artist_profile {background:#000000;}
+#artist_profile #upload_image {width:225px;height:225px;background:#000;}
+#artist_profile a.edit_focus {position:absolute;right:0;display:block;width:42px;height:24px;background:url('/resources/images/ibutton.edit.png') 0 0 no-repeat;margin-left:10px;opacity:0.6;filter:alpha(opacity=60);}
+#artist_profile a.edit_focus:hover {opacity:1.0;filter:alpha(opacity=100);}
+
+#artist_profile div.box_primary div.info {overflow:hidden;}
+#artist_profile div.box_primary div.info h2 {color:#CC9933;font-size:3em;}
+#artist_profile div.box_primary div.info p,#artist_profile div.box_primary div.info span {font-size:1.6em;color:#888888;}
+#artist_profile div.box_primary div.info span {display:block;line-height:1.3;}
+#artist_profile div.box_primary div.info span.photography {color:#444444;}
+#artist_profile div.box_primary div.info span.title {margin-top:20px;color:#444444;font-style:normal;font-size:1.3em;font-style:italic;}
+#artist_profile div.box_primary div.info span.content {}
+
+#content_black.slim {width:75%;}
+
+/* MINIMALISTIC */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#artist_profile.minimalistic {/*min-height:700px;*/}
+
+#artist_profile.minimalistic div.box_primary {width:95%;padding:100px 0 40px 160px;position:relative;background:#000000;}
+#artist_profile.minimalistic div.no_thumbnails {padding-top:160px;padding-bottom:160px;}
+#artist_profile.minimalistic div.box_primary #avatar_container {position:relative;z-index:500;}
+#artist_profile.minimalistic div.box_primary div.info {width:550px;height:195px;margin:20px 0 0 25px;position:relative;z-index:500;}
+#artist_profile.minimalistic div.box_primary div.info h2,#artist_profile.minimalistic div.box_primary div.info p,#artist_profile.minimalistic div.box_primary div.info span {padding-left:5px;}
+#artist_profile.minimalistic div.box_primary div.info h2 {width:90%;}
+#artist_profile.minimalistic div.box_primary div.info span.focus {font-size:1.4em;color:#444444;font-style:italic;}
+#artist_profile.minimalistic div.box_primary div.info p.about_me {width:90%;border-top:1px solid #111111;margin-top:20px;padding-top:0.75em;height:6em;overflow:hidden;}
+#artist_profile.minimalistic div.box_primary div.info div.editable textarea {height:80px;background:#000000;text-align:left;font-size:1.3em;}
+#artist_profile.minimalistic div.box_primary div.info span.location {display:inline-block;margin-top:10px;font-size:1.2em;color:#444444;padding:5px 30px 0 5px;border-top:1px solid #1a1a1a;font-style:italic;}
+
+#artist_profile.minimalistic div.cdivider {background:#111111;margin:0 auto;z-index:100;}
+
+#artist_profile.minimalistic div.box_secondary {padding:40px 0 50px 0;border-top:0px solid #111111;border-bottom:0px solid #111111;background-color:#000000;}
+#artist_profile.minimalistic div.box_secondary div.thumbnail_container {margin:0 auto;padding:12px 0 10px 12px;border:0px solid #111111;-moz-border-radius:10px;-webkit-border-radius:10px;}
+#artist_profile.minimalistic div.box_secondary div.thumbnail_container a {}
+#artist_profile.minimalistic div.box_secondary div.thumbnail_container a img {opacity:0.4;filter:alpha(opacity=40);}
+
+/*
+#artist_profile.minimalistic div.box_primary div.filler {position:absolute;left:-100px;top:200px;width:100%;height:47%;}
+#artist_profile.minimalistic div.box_primary div.filler,#artist_profile.minimalistic div.box_secondary {background-color:#110205;background-color:#020d11;background-color:#110402;background-color:#110a02;background-color:#0b1102;background-color:#0b1102;background-color:#130a01;}
+*/
+
+/* VERTICAL POSTER */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#artist_profile.vertical_poster {}
+
+#artist_profile.vertical_poster div.box_primary {padding:60px 0 60px 70px;border-bottom:0px solid #1a1a1a;background:#000000;}
+#artist_profile.vertical_poster div.box_primary img.poster {width:540px;border:3px solid #111111;}
+#artist_profile.vertical_poster div.box_primary div.info {position:relative;width:300px;margin:20px 0 0 30px;}
+/*#artist_profile.vertical_poster div.box_primary div.info img.avatar {position:absolute;right:-20px;}*/
+#artist_profile.vertical_poster div.box_primary div.info h2 {width:90%;font-size:28px;padding-bottom:15px;border-bottom:1px solid #1a1a1a;}
+
+/* PANORAMA */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#artist_profile.panorama {}
+
+#artist_profile.panorama div.box_primary {padding:45px 0 30px 0;border-bottom:0px solid #1a1a1a;background:#000000;}
+#artist_profile.panorama div.box_primary img.panoramic {display:block;width:890px;height:350px;border:3px solid #111111;margin:0 auto;}
+#artist_profile.panorama div.box_primary div.info {position:relative;width:70%;padding:45px 0 30px 0;margin:0 auto;}
+#artist_profile.panorama div.box_primary div.info div.info_primary {width:40%;}
+#artist_profile.panorama div.box_primary div.info div.info_secondary {width:54%;padding-left:30px;position:relative;top:-12px;}
+#artist_profile.panorama div.box_primary div.info div.info_secondary h2 {width:90%;font-size:28px;margin-bottom:10px;}
+
+#artist_profile.panorama div.box_primary div.info_minimal {}
+#artist_profile.panorama div.box_primary div.info_minimal div.info_primary {width:50%;}
+#artist_profile.panorama div.box_primary div.info_minimal div.info_secondary {width:45%;}
+#artist_profile.panorama div.box_primary div.info_minimal h2 {clear:none;float:right;width:65%;margin:20px 15px 0 0;}
+
+/* SQUARE TILES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#artist_profile.square_tiles {padding:60px 57px;}
+#artist_profile.square_tiles div.row {margin-bottom:4px;}
+#artist_profile.square_tiles div.row div.square {width:450px;height:450px;float:left;margin-right:4px;background:#000000;overflow:hidden;}
+/*#artist_profile.square_tiles div.row div.square {background:url('/resources/images/bg/bg.texture.finegrain.png') repeat;}*/
+#artist_profile.square_tiles div.row div.square img.tile {width:100%;height:100%;}
+#artist_profile.square_tiles div.row div.square div.info {padding:10px 30px;height:90%}
+#artist_profile.square_tiles div.row div.square div.info h2 {padding-bottom:15px;border-bottom:1px solid #1a1a1a;}
+#artist_profile.square_tiles div.row div.square div.info p.about_me {height:96px;overflow:hidden;}
+#artist_profile.square_tiles div.row div.square div.custom_info span,#artist_profile.square_tiles div.row div.custom_info p {text-align:right;}
+
+

@@ -1,0 +1,18 @@
+/* ARTIST PROFILE CREATE */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#content_black.artist_profile_create {padding:10px 50px 50px 50px;}
+#content_black.artist_profile_create img.dashboard {}
+#content_black.artist_profile_create div.form {/*width:58%;*/padding:0 25px 25px 0;}
+/*#content_black.artist_profile_create div.form div.first,#content_black.artist_profile_create div.form div.next {border-bottom:1px solid #111111;}*/
+#content_black.artist_profile_create div.form input.text {width:100%;}
+/*#content_black.artist_profile_create div.form #upload_image {width:225px;height:225px;background-image:url('/resources/images/prompt.upload_avatar.png');}*/
+#content_black.artist_profile_create div.form #upload_image {width:225px;height:225px;}
+#content_black.artist_profile_create div.form #upload_image:hover {background-position:0 -225px;}
+#content_black.artist_profile_create div.form .checkboxes .column .checkbox_unit {margin-bottom:10px;}
+#content_black.artist_profile_create div.form div.checkboxes_focii input.text {width:25%;padding-left:10px;}
+#content_black.artist_profile_create div.form #focus_other {position:relative;left:-5px;}
+
+#content_black.artist_profile_create #content_submit {}
+#content_black.artist_profile_create #content_submit div.terms_of_service_agreement {width:55%;margin:0 auto;margin-bottom:15px;}
+#content_black.artist_profile_create #content_submit div.terms_of_service_agreement span,#content_black.artist_profile_create #content_submit div.terms_of_service_agreement a {display:inline;}
+#content_black.artist_profile_create #content_submit div.terms_of_service_agreement a {margin-left:4px;}

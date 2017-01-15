@@ -1,0 +1,42 @@
+body.modal {background:#000000;width:100%;overflow:hidden;padding-bottom:10px;}
+#shadowbox_body {overflow:hidden;}
+#shadowbox_wrapper {padding:4px;}
+
+.modal .header {padding:15px 20px 10px 20px;font-size:20px;color:#666666;}
+
+ #CarouselContainer {position:relative;height:270px;}
+ #CarouselContainer ul {padding:2px;}
+ #CarouselContainer ul a.thumbnail90{clear:both;margin-bottom:12px;text-decoration:none;}
+ #CarouselContainer ul.fade_preload .preloader {display:block;position:relative;top:45%;margin:0;left:350px;z-index:2000;}
+
+ #CarouselContainer ul li a span.title {cursor:pointer;background:transparent url('/resources/images/black_trans_80.png') repeat;position:absolute;top:73px;color:#cccccc;height:18px;width:90px;text-align:center;z-index:4000;overflow:hidden;}
+
+ #CarouselContainer ul li a span.add {display:none;position:absolute;top:0px;right:6px;height:24px;width:24px;background:#000000 url('/resources/images/folds.png') right 0 no-repeat;}
+ #CarouselContainer ul li a:hover span.add {display:block;}
+ #CarouselContainer ul li a span.add:hover {background:#000000 url('/resources/images/folds.png') right -24px no-repeat;}
+
+ #CarouselContainer ul li a span.remove {display:none;position:absolute;top:0px;right:6px;height:24px;width:24px;background:#000000 url('/resources/images/folds.png') right -96px no-repeat;}
+ #CarouselContainer ul li a:hover span.remove {display:block;}
+ #CarouselContainer ul li a span.remove:hover {background:#000000 url('/resources/images/folds.png') right -120px no-repeat;}
+
+#CarouselContainer #filters {width:815px;height:25px;position:absolute;left:56px;margin-top:10px;}
+#CarouselContainer #filters input.radio {position:relative;top:2px;}
+#CarouselContainer #filters .filter_none {width:5%;}
+#CarouselContainer #filters .filter_none span {width:30px;height:15px;background:url('/resources/images/imagetext/imagetexts.carousel.png') 0 -15px no-repeat;margin-left:22px;position:relative;top:6px;}
+#CarouselContainer #filters .filter_added {width:20%;}
+#CarouselContainer #filters .filter_added span {width:128px;height:15px;background:url('/resources/images/imagetext/imagetexts.carousel.png') 0 0 no-repeat;margin-left:22px;position:relative;top:6px;}
+#CarouselContainer #filters .filter_keywords {width:75%;overflow:hidden;}
+#CarouselContainer #filters .filter_keywords input.text {width:94.9%;font-size:1.1em;position:relative;}
+#CarouselContainer #filters a.reset {display:block;width:25px;height:25px;position:absolute;right:0;background:url('/resources/images/delete.png') no-repeat;top:8px;right:-10px;}
+
+/* GROUP BOOKMARKS */
+ #CarouselContainer ul.bookmarks_group li.jcarousel-item {width:254px;}
+ #CarouselContainer ul.bookmarks_group li a {height:200px;}
+ #CarouselContainer ul.bookmarks_group li a img {width:245px;height:200px;}
+ #CarouselContainer ul.bookmarks_group li a span.title {top:175px;font-size:1.3em;height:28px;width:245px;line-height:28px;}
+
+/* ADD REMOVE PHOTOS */
+ #CarouselContainer ul.add_remove_photos li a span.add {display:block;}
+ #CarouselContainer ul.add_remove_photos li a:hover span.add {background:#000000 url('/resources/images/folds.png') right -24px no-repeat;}
+ #CarouselContainer ul.add_remove_photos li a span.remove {display:block;}
+ #CarouselContainer ul.add_remove_photos li a:hover span.remove {background:#000000 url('/resources/images/folds.png') right -120px no-repeat;}

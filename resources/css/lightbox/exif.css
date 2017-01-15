@@ -1,0 +1,11 @@
+.photo_info_container {position:absolute;bottom:0;width:1024px;}
+.photo_info_container .exif_container {position:relative;bottom:0;display:block;width:445px;height:45px;background:transparent url('/resources/images/photo_info_container.png') 0 0 no-repeat;margin:0 auto;}
+
+.photo_info_container .exif_container .subscript {display:block;float:left;height:16px;background:transparent url('/resources/images/photo_info_container.png') no-repeat;margin:25px 5px 0 20px;}
+.photo_info_container .exif_container .focal {width:24px;background-position:0 -50px;}
+.photo_info_container .exif_container .aperture {width:44px;background-position:0 -70px;}
+.photo_info_container .exif_container .shutter {width:37px;background-position:0 -90px;}
+.photo_info_container .exif_container .iso {width:15px;background-position:0 -110px;}
+
+.photo_info_container .exif_container .exif {float:left;font-family:Georgia;color:#999999;font-size:1.5em;margin-top:22px;}
+.photo_info_container .exif_container .qualifier {float:left;margin-top:26px;margin-left:1px;font-family:Georgia;font-size:1em;}

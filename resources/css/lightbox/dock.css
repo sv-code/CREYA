@@ -1,0 +1,104 @@
+#filters{position:fixed;bottom:0;width:100%;z-index:9999;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters.minimized {bottom:-56px;}
+#filters #filtercontrols{margin:0 auto;width:1050px;position:relative;}
+#filters a.filterUp {display:block;height:19px;width:78px;background:transparent url('/resources/images/filterToggle.png') 0 0 no-repeat;}
+#filters a.filterDown{background-position:0 -19px;}
+#filters .reset{display:block;position:absolute;right:-5px;top:3px;width:32px;height:32px;background:url('/resources/images/reset.png') no-repeat;}
+#filters .reset:hover{background-position:0 -31px;}
+#filters.minimized .reset {display:none;}
+#filters .filter-container{position:relative;margin:15px 10px 0 10px;float:left;} 
+#filters label{color:#666666;font-size:1.1em;margin-bottom:10px;display:block;padding-left:5px;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters label span {color:#cccccc;font-size:1.2em;} 
+#filters .filter-bar{background:transparent url('/resources/images/filter-bar.png') no-repeat;height:5px;width:125px;float:left;margin:0px 5px;position:relative;} 
+#filters .filter-container .ui-slider-handle{background:transparent url('/resources/images/filter-handle.png') no-repeat;width:14px;height:14px;overflow:hidden;position:absolute;top:-5px;}
+
+#filters #dock{margin:0 auto;background:transparent url('/resources/images/black_trans_80.png') repeat;width:1050px;height:60px;}
+#filters #tagBlock{float:left;margin:20px 10px 0 60px;}
+#filters #tags{background:transparent url('/resources/images/filterTagsL.png') no-repeat scroll left top;height:27px;padding:6px 0 0 10px;}
+#filters #tags .tagsL{background:transparent;border:none;color:#666;float:left;font-size:1.1em;margin:0;width:145px;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters #tags .SS{background:transparent;border:none;color:#666;float:left;font-size:1em;margin:0;width:895px;}
+#filters #tags .tagsR{float:left;position:relative;top:-6px;}
+
+#filters #typeBlock{float:left;padding:21px 5px 0 0;position:relative;}
+#filters a.type{background:transparent url('/resources/images/type.png') left top no-repeat;color:#666;display:block;width:135px;float:left;font-size:1.1em;height:25px;text-decoration:none;}
+#filters a.type span{background:transparent url('/resources/images/type_arrow.png') right top no-repeat;height:25px;line-height:23px;padding:0 41px 0 10px;display:block;font-size:1.1em;}
+#filters a.type:hover{color:#333;background-position:left bottom}
+#filters a.type:hover span{background-position:right bottom}
+#filters #typeDD{position:absolute;z-index:2000;top:-482px;left:1px;width:133px;display:block;}
+#filters #typeDD a{cursor:pointer;display:block;text-decoration:none;color:#666;font-size:1.1em;padding:5px 10px 8px 10px;border-left:1px solid #ccc;border-right:1px solid #ccc;background:#fff;}
+#filters #typeDD a:hover{color:#333;}
+#filters #typeDD a.first{padding-top:8px;-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}
+#filters #typeDD a.first span {font-size:1.1em;}
+
+
+#filters.shoebox_creator {bottom:-91px;}
+#filters.shoebox_creator  #dock {height:95px;}
+
+/* SMALL DOCK */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#filters.smalldock #dock {height:60px;}
+
+/* SECTION SEARCH */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#filters.section_search #tagBlock{margin:17px 10px 0 20px;}
+#filters.section_search #tagBlock .tagsLong {width:928px;background:transparent url('/resources/images/bg/bg.forms.input.png') 0 -160px no-repeat;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana;}
+#filters.section_search #tagBlock input {font-size:1.3em;border:0px solid #333;height:20px;margin-top:2px;padding:7px 15px 0 15px;width:980px;}
+
+/* SHOEBOX CREATOR */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#filters .shoebox_creator {}
+#filters .shoebox_creator_input {background:#000;padding:10px 0 10px 42px;border-top:1px solid #1a1a1a;}
+#filters .shoebox_creator_input .prompt {margin:5px 10px 0 0px;}
+#filters .shoebox_creator_input .shoebox_name {width:710px;border:none;font-size:1.2em;margin-top:0px;margin-right:10px;}
+/*#filters .shoebox_creator_input .input_wrapper {width:700px;height:28px;background:transparent url('/resources/images/filterTagsL_long.png') left top no-repeat;padding:4px 0 0 10px;}
+#filters .shoebox_creator_input .tagsR {position:relative;top:0px;}*/
+
+
+/* DOCK */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+div.dock {display:inline-block;position:fixed;right:25%;bottom:0;height:26px;background:url('/resources/images/black_trans_80.png') repeat;margin:0 auto;-moz-border-radius-topleft:12px;-webkit-border-top-left-radius:12px;-moz-border-radius-topright:12px;-webkit-border-top-right-radius:12px;border:2px solid #1a1a1a;border-bottom:none;padding:0 10px;}
+
+#filters.local_actions #dock {height:10px;padding:10px 0;}
+#filters.local_actions a.filterUp {background-position:0 -39px;}
+#filters.local_actions a.filterDown{background-position:0 -59px;}
+#filters.local_actions_minimized {bottom:-26px;}
+
+#filters.local_actions #dock a.action,#filters.local_actions #dock div.action a,#filters.local_actions #dock a.action,#filters.local_actions #dock div.action_a {display:block;height:14px;float:right;margin-right:25px;background:url('/resources/images/dock.local_actions.png') no-repeat;position:relative;}
+#filters.local_actions #dock a.action_last,#filters.local_actions #dock div.action_last {margin-right:0;}
+
+#filters.local_actions #dock div.action a.start {cursor:default;}
+#filters.local_actions #dock div.action div.subdock {position:absolute;bottom:23px;height:27px;background:url('/resources/images/dock.local_actions.png') no-repeat;display:none;}
+#filters.local_actions #dock div.action div.subdock a.sub_action {display:block;height:14px;float:left;background:url('/resources/images/dock.local_actions.png') no-repeat;margin:10px 5px 0 10px;}
+
+#filters.local_actions #dock div.add_captions {width:84px;background-position:0 -7px;position:relative;}
+#filters.local_actions #dock div.add_captions:hover,#filters.local_actions #dock div.add_captions_active {background-position:0 -27px;}
+#filters.local_actions #dock div.add_captions div.subdock {width:192px;height:27px;background-position:0 -60px;}
+#filters.local_actions #dock div.add_captions div.subdock a.add_title {width:60px;background-position:0 -92px;}
+#filters.local_actions #dock div.add_captions div.subdock a.add_title:hover {background-position:0 -106px;}
+#filters.local_actions #dock div.add_captions div.subdock a.add_title_disabled,#filters.local_actions #dock div.add_captions div.subdock a.add_title_disabled:hover {background-position:0 -120px;cursor:default;}
+#filters.local_actions #dock div.add_captions div.subdock a.add_description {width:96px;background-position:-73px -92px;}
+#filters.local_actions #dock div.add_captions div.subdock a.add_description:hover {background-position:-73px -106px;}
+#filters.local_actions #dock div.add_captions div.subdock a.add_description_disabled,#filters.local_actions #dock div.add_captions div.subdock a.add_description_disabled:hover {background-position:-73px -120px;cursor:default;}
+
+#filters.local_actions #dock a.submit_for_review {width:106px;background-position:-96px -7px;}
+#filters.local_actions #dock a.submit_for_review:hover {background-position:-96px -27px;}
+
+#filters.local_actions #dock div.delete_entity {width:54px;background-position:-242px -7px;}
+#filters.local_actions #dock div.delete_entity:hover,#filters.local_actions #dock div.delete_entity_active {background-position:-242px -27px;}
+#filters.local_actions #dock div.delete_entity div.subdock {width:120px;background-position:0 -161px;left:-50px;}
+#filters.local_actions #dock div.delete_entity div.subdock a.sub_action {margin-left:15px;margin-right:-3px;}
+#filters.local_actions #dock div.delete_entity div.subdock a.confirm {width:40px;background-position:0 -194px;}
+#filters.local_actions #dock div.delete_entity div.subdock a.confirm:hover {background-position:0 -208px;}
+#filters.local_actions #dock div.delete_entity div.subdock a.cancel {width:40px;background-position:-41px -194px;}
+#filters.local_actions #dock div.delete_entity div.subdock a.cancel:hover {background-position:-41px -208px;}
+
+#filters.local_actions #dock a.bookmark {width:78px;height:20px;margin-top:-7px;background-position:-310px 0;}
+#filters.local_actions #dock a.bookmark:hover {background-position:-310px -20px;}
+#filters.local_actions #dock a.bookmarked {width:87px;background-position:-403px 0;}
+#filters.local_actions #dock a.bookmarked:hover {background-position:-403px -20px;}
+
+#filters.local_actions #dock a.review {width:52px;background-position:-516px -7px;}
+#filters.local_actions #dock a.review:hover {background-position:-516px -27px;}
+
+#filters.local_actions #dock a.original_photo {width:96px;background-position:-586px -7px;}
+#filters.local_actions #dock a.original_photo:hover {background-position:-586px -27px;}

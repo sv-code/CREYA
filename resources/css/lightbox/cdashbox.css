@@ -1,0 +1,39 @@
+/* SPLIT VIEW */
+.default_container {position:relative;background:#000000;}
+.default {position:relative;}
+.cdashbox_content {position:relative;}
+
+/* CDASHBOX */
+.cdashbox_container {background:#000000 url('/resources/images/texture.threads.fine.png') repeat;}
+.cdashbox 
+{
+/*	width:100%;	*/
+	padding:20px 20px 0 20px;
+}
+
+.cdashbox .cdtitle {display:block;height:13px;background:url('/resources/images/imagetext/imagetexts.cdashbox.png') no-repeat;margin-bottom:5px;float:right;}
+.cdashbox input {background:url('/resources/images/cdashbox.tag.text.png') repeat;}
+
+.cdashbox_container .divider {margin-top:20px;width:100%;height:5px;background:#000000;}
+
+.cdashbox .tag div {height:23px;}
+.cdashbox .tag .start {width:15px;background:url('/resources/images/cdashbox.tag.png') 0 0 no-repeat;}
+.cdashbox .tag .text {background:url('/resources/images/cdashbox.tag.text.png') repeat;}
+.cdashbox .tag .end {width:15px;background:url('/resources/images/cdashbox.tag.png') -58px 0 no-repeat;}
+.cdashbox .tag .delete_tag {width:23px;background:url('/resources/images/cdashbox.tag.png') -50px -23px no-repeat;} /* @todo: tag .delete_tag?? */
+.cdashbox .tag .delete_tag:hover {background:url('/resources/images/cdashbox.tag.png') -50px -46px no-repeat;} /* @todo: tag .delete_tag?? */
+
+/* CDASHBOX TITLES */
+.cdashbox span.posted_by {width:73px;background-position:0 0;}
+.cdashbox span.created_by {width:80px;background-position:0 -14px;}
+.cdashbox span.tags {width:36px;background-position:0 -28px;}
+.cdashbox span.more_from_this_artist {width:162px;background-position:0 -42px;}
+.cdashbox span.review_this_photograph {width:177px;background-position:0 -56px;}
+.cdashbox span.average_rating {width:113px;background-position:0 -69px;}
+.cdashbox span.review_summary {width:121px;background-position:0 -83px;}
+
+/* CDASHBOX-CREATOR */
+.cdashbox_creator {padding:27px 20px 0 27px;}
+
+/* CDASHBOX-THUMBNAILS */
+.cdashbox .thumbnail_row {margin-bottom:2px;} 

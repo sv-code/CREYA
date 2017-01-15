@@ -1,0 +1,212 @@
+.form {font-family:Verdana,sans-serif;color:#666666;}
+
+.form .first,.form .next {position:relative;padding-bottom:1px;border-bottom:1px solid #222222;height:10px;}
+.form_trans .first, .form_trans .next {border:none;}
+.form_trans .next_line {border-bottom:1px solid #222222;}
+
+.form .next {margin-top:30px;}
+.form .subfirst,.form .subnext {margin-top:-16px;}
+.form .title {font-family:"Helvetica";color:#999999;font-weight:bold;font-smooth:always;text-transform:uppercase;}
+.form label {font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,sans-serif;}
+.form label {font-family:Georgia,serif;}
+.form a {color:#666666;}
+.form a:hover {color:#cccccc;}
+.form .helper {margin-left:10px;color:#444444;position:relative;top:-1px;font-size:1.1em;/*font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;*/}
+.form .red {color:#990000 !important;}
+.form .cdivider {background:#1a1a1a;}
+.form .more_info {color:#444444;margin-top:-2px;margin-left:10px;}
+.form span.current {color:#999999;}
+.form span.title2 {color:#555555;font-size:1.1em;line-height:1.5;display:block;text-align:right;}
+.form .bborder {border-bottom:1px solid #1a1a1a;}
+
+/* IMAGETEXT TITLES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form .title {text-indent:-9999px;height:9px;width:130px;background:url('/resources/images/imagetext/imagetexts.form.title.png') no-repeat;display:block;}
+
+.form .title_email {background-position:0 0;}
+.form .title_password {background-position:0 -10px;}
+.form .title_confirm_password {background-position:0 -20px;}
+.form .title_login {width:35px;background-position:0 -30px;}
+.form .title_profile_name {width:82px;background-position:0 -40px;}
+.form .title_avatar {width:44px;background-position:0 -50px;}
+.form .title_location {width:60px;background-position:0 -60px;}
+.form .title_focus {width:40px;background-position:0 -70px;}
+
+.form .title_group_image {width:92px;background-position:0 -80px;}
+.form .title_group_name {background-position:0 -90px;}
+.form .title_group_description {background-position:0 -100px;}
+
+.form .title_post_title {width:80px;background-position:0 -110px;}
+.form .title_post_body {background-position:0 -120px;}
+.form .title_add_tags {background-position:0 -130px;}
+.form .title_add_images {width:80px;background-position:0 -140px;}
+.form .title_change_password {width:116px;background-position:0 -150px;}
+
+.form .title_cc_license {width:60px;background-position:0 -160px;}
+.form .title_url {width:62px;background-position:0 -170px;}
+.form .title_gallery_type {width:82px;background-position:0 -180px;}
+.form .title_comments {width:72px;background-position:0 -190px;}
+.form .title_notifications {width:100px;background-position:0 -200px;}
+.form .title_profile_theme {width:100px;background-position:0 -210px;}
+.form .title_custom_info {width:80px;background-position:0 -220px;}
+.form .title_about_me {width:59px;background-position:0 -230px;}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.form .indicator_prompt {position:absolute;right:0;background:#000000;padding:5px 10px 3px 5px;border:2px solid #1a1a1a;-moz-border-radius:8px;-webkit-border-radius:8px;display:none;}
+.form .prompt {font-style:italic;position:relative;top:-2px;line-height:1;margin-left:5px;font-size:1.1em;}
+.form .indicator {margin-left:7px;width:11px;height:11px;text-indent:-9999px;}
+.form .positive {background:url('/resources/images/prompt.positive.png') no-repeat;}
+.form .negative {background:url('/resources/images/prompt.negative.png') no-repeat;}
+.form .preloader {width:16px;height:16px;background:url('/resources/images/ajax-loader-black-small.gif') no-repeat;}
+
+.form .more_info span {margin-left:10px;font-size:1em;font-style: italic;text-transform:none;}
+.form_trans span.more_info {display:block;margin:3px 0;font-style:italic;font-size:1.1em;}
+
+
+.finput_margin {margin-top:5px;}
+.form_trans .finput_margin {margin-top:1px;}
+
+.form select {width:120px;color:#999;padding:2px;}
+
+
+textarea,input.text {background: url('/resources/images/texture.threads.medium.png') repeat;border:#333 0px solid;color:#666;}
+textarea,input.text {background: url('/resources/images/bg/bg.texture.finegrain.png') repeat;border:2px solid #1a1a1a;-moz-border-radius:5px;-webkit-border-radius:5px;padding:5px;}
+.form_trans textarea,.form_trans input.text {background:#000000;-moz-border-radius:5px;-webkit-border-radius:5px;padding:5px 10px;} 
+
+textarea {font-family:Georgia,serif;font-size:1.4em;line-height:1.5;}
+input.text {padding:5px;opacity:1.0;filter:alpha(opacity=100);}
+input.text {font-family:Georgia,serif;font-size:1.4em;}
+input.textlight {background: url('/resources/images/texture.threads.fine.png') repeat;}
+input.textlight:hover {background: url('/resources/images/texture.threads.medium.png') repeat;}
+input.submit {border:none;cursor:pointer;}
+#upload_image {width:160px;height:160px;background: url('/resources/images/textarea_bg.png') repeat;border:#333 0px solid;}
+
+.form #CarouselContainer {position:relative;right:15px;margin-bottom:30px;}
+
+
+/* DROP DOWN */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form .dropdown {position:relative;top:-11px;background:#000000;font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,sans-serif;}
+.form .dropdown div.choices {position:absolute;left:1px;}
+.form .dropdown a {width:152px;display:block;padding:7px 0 0 12px;font-size:1.1em;}
+.form .dropdown a.choice {height:17px;background:#000000 url('/resources/images/bg/bg.form.dropdown.png') repeat-y;position:relative;top:5px;}
+.form .dropdown a.choice:hover {color:#ccc;}
+.form .dropdown a.selected {height:22px;background:#000000 url('/resources/images/bg/bg.forms.input.png') 0 0 no-repeat;padding:7px 0 0 10px;position:relative;top:11px;padding:8px 0 0 12px;}
+.form .dropdown:hover a.selected {background-position:-164px 0;}
+.form .dropdown span.end {width:162px;display:block;height:6px;background:url('/resources/images/bg/bg.form.dropdown.selected.png') 0 -21px no-repeat;position:relative;top:5px;}
+
+/* DROP DOWN - CUSTOM */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form .dropdown_custom {position:relative;}
+.form .dropdown_custom div.choices {position:absolute;bottom:30px;background:#000000;display:none;overflow:hidden;padding:0 10px 10px 0;-moz-border-radius:10px 10px 0 0;-webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius:10px;border:1px solid #111111;border-bottom:none;}
+.form .dropdown_custom2:hover div.choices {display:block;}
+.form .dropdown_custom a {display:block;padding-top:8px;font-size:0.785em;}
+.form .dropdown_custom a.selected {height:22px;background:transparent url('/resources/images/bg/bg.forms.input.png') no-repeat;}
+.form .dropdown_custom a.selected span {line-height:1;}
+.form .dropdown_custom:hover a.selected {}
+.form .dropdown_custom a.choice {width:100%;height:14px;/*padding-top:0;padding-bottom:8px;*/}
+.form .dropdown_custom a.choice span {margin-left:12px;}
+.form .dropdown_custom a.choice:hover span {color:#ccc;}
+
+.form .dropdown_custom_photos div.choices {width:116px;left:60px;}
+.form .dropdown_custom_photos a {width:198px;}
+.form .dropdown_custom_photos a.selected {background-position:0 -195px;}
+.form .dropdown_custom_photos a.selected span {margin-left:70px;}
+.form .dropdown_custom_photos2:hover a.selected {background-position:-200px -195px;}
+
+.form .dropdown_custom_size div.choices {width:60px;left:49px;}
+.form .dropdown_custom_size a {width:140px;}
+.form .dropdown_custom_size a.selected {background-position:-400px -195px;}
+.form .dropdown_custom_size a.selected span {margin-left:58px;}
+.form .dropdown_custom_size2:hover a.selected {background-position:-542px -195px;}
+
+.form .dropdown_custom_number div.choices {width:22px;left:65px;}
+.form .dropdown_custom_number a {width:110px;}
+.form .dropdown_custom_number a.selected {background-position:-684px -195px;}
+.form .dropdown_custom_number a.selected span {margin-left:75px;}
+.form .dropdown_custom_number2:hover a.selected {background-position:-542px -195px;}
+
+/* ROUNDED */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form_rounded {}
+.form_rounded .input_text {}
+.form_rounded .input_text .start {float:left;width:15px;height:28px;background:#000000 url('/resources/images/bg/bg.forms.input.png') 0px -30px no-repeat;}
+.form_rounded .input_text .ctext {float:left;height:27px;background:#000000 url('/resources/images/bg/bg.forms.input.text.png') 0 0px  repeat;}
+.form_rounded .input_text .ctext input.text {height:19px;padding:0;margin-top:3px;padding-top:2px;background:#000000;}
+.form_rounded .input_text .end{float:left;width:15px;height:28px;background:#000000 url('/resources/images/bg/bg.forms.input.png') -441px -30px no-repeat;}
+
+/* CHECKBOXES */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form .checkboxes {}
+.form .checkboxes .column {float:left;width:200px;}
+.form .checkboxes .column .checkbox_unit {margin-bottom:5px;}
+.form .checkboxes .column .checkbox_unit .checkbox_focus {}
+.form .checkboxes .column .checkbox_unit span.focus {margin-top:3px;margin-left:8px;font-family:Georgia,serif;font-size:1.3em;}
+
+.form .checkboxSet {margin-top:5px;}
+.form .checkboxSet input {display:block;clear:both;float:left;margin-top:5px;}
+.form .checkboxSet span {display:block;float:left;margin-left:5px;margin-top:6px;}
+
+/* RADIOSETS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form .radioset {}
+.form .radioset input {display:block;clear:both;float:left;margin-top:8px;}
+.form .radioset span {display:block;float:left;margin-top:9px;margin-left:3px;}
+.form .radioset span.helper {font-style:normal;top:0;}
+
+/* TOGGLE-SWITCH */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form .toggle_switch {height:20px;padding:3px;background:#111111;border:2px solid #1a1a1a;}
+.form .toggle_switch {width:220px;}
+.form .toggle_switch span {line-height:1;}
+.form .toggle_switch span.name {display:block;font-size:1.3em;margin:2px 0 0 15px;color:#555555;}
+.form .toggle_switch a.switch {display:block;height:100%;background:#000000;position:relative;}
+.form .toggle_switch a.switch div.bar {width:50%;height:100%;background:#1a1a1a;z-index:100;position:absolute;}
+.form .toggle_switch a.switch span.choice {display:block;width:35px;text-align:center;margin-top:4px;float:left;position:relative;z-index:200;padding:0 5px;}
+
+.form .toggle_switch a.switch_off {}
+.form .toggle_switch a.switch_off div.bar {background:#330909;}
+.form .toggle_switch a.switch_off span {font-size:1.1em;}
+.form .toggle_switch a.switch_off span.choice_off {color:#888888;}
+.form .toggle_switch a.switch_off span.choice_on {color:#333333;}
+
+.form .toggle_switch a.switch_on {}
+.form .toggle_switch a.switch_on div.bar {background:#213309;right:0;}
+.form .toggle_switch a.switch_on span.choice_on {color:#888888;}
+.form .toggle_switch a.switch_on span.choice_off {color:#333333;}
+
+.form .toggle_switch_basic {}
+.form .toggle_switch_basic a.switch {width:100%;}
+
+.form .toggle_switch a.switch_disabled {}
+.form .toggle_switch a.switch_disabled {cursor:auto;}
+
+/*
+.form .toggle_switch_basic {height:20px;}
+.form .toggle_switch_basic a.switch {height:100%;border:2px solid #1a1a1a;}
+.form .toggle_switch_basic a.switch span.choice {padding:0 10px;position:relative;top:4px;z-index:200;}
+.form .toggle_switch_basic a.switch div.bar {width:50%;height:100%;background:#1a1a1a;z-index:100;position:absolute;}
+*/
+
+/* RADIO-BARS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form .radiobars {padding:10px;width:65%;}
+.form .radiobars a {}
+.form .radiobars a span.bar {display:block;padding:10px;margin-bottom:10px;font-size:1.3em;border:3px solid #1a1a1a;}
+.form .radiobars a:hover span.bar {background:#111111;}
+.form .radiobars a.chosen span.bar,.form .radiobars a.chosen:hover span.bar {background:#1a1a1a;}
+
+.form .radiobars_extended {}
+.form .radiobars_extended a {height:29px;display:block;margin-bottom:4px;border:0px solid #1a1a1a;overflow:hidden;margin-bottom:8px;}
+.form .radiobars_extended a:hover {background:#000000;}
+.form .radiobars_extended a.chosen,.form .radiobars_extended a.chosen:hover {background:#321705;background:#000000;cursor:auto;border-color:#111111;border:2px solid #1a1a1a;}
+.form .radiobars_extended a div {padding:8px;}
+.form .radiobars_extended a div.primary {width:9%;border-right:1px solid #101010;}
+.form .radiobars_extended a.chosen div.primary {border-color:#1a1a1a;}
+.form .radiobars_extended a div span {display:block;font-size:1.3em;position:relative;top:-1px;line-height:1.1;}
+.form .radiobars_extended a div.primary span {text-align:center;color:#888888;}
+.form .radiobars_extended a div.secondary {padding:8px 10px;}
+.form .radiobars_extended a div.secondary span {color:#444444;}
+.form .radiobars_extended a:hover div.secondary span {color:#666666;}
+.form .radiobars_extended a.chosen div.secondary span {color:#888888;}

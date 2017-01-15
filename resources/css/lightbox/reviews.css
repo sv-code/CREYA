@@ -1,0 +1,45 @@
+#reviews {width:90%;margin:40px auto 0 auto;}
+#reviews div.review {position:relative;border:2px solid #1a1a1a;background:none;margin-bottom:20px;overflow:hidden;}
+#reviews div.review span {display:block;line-height:1;}
+#reviews div.review p {}
+
+#reviews div.review div.header {padding:10px 20px;background:#000000;border-bottom:1px solid #111111;}
+#reviews div.review div.header a.avatar {}
+#reviews div.review div.header div.identity {margin:7px 0 0 10px;}
+#reviews div.review div.header div.identity span.meta {font-style:italic;color:#454545;font-size:1.2em;}
+#reviews div.review div.header div.identity span.artist_dname {color:#666600;margin-top:4px;text-transform:uppercase;line-height:1.2;}
+#reviews div.review div.header span.average_rating {background:#000000;border:0px solid #111111;font-size:2.5em;padding:0.3em;color:#666600;}
+
+#reviews div.review div.ratings {padding:20px;}
+#reviews div.review div.ratings div.metrics {float:left;width:50%;padding-right:20px;border-right:1px solid #1a1a1a;}
+#reviews div.review div.ratings div.metrics div.metric {margin-bottom:15px;}
+#reviews div.review div.ratings div.metrics div.metric span.title {height:14px;background:url('/resources/images/imagetext/imagetext.review_metrics.png') no-repeat;}
+#reviews div.review div.ratings div.metrics div.metric span.impact {width:60px;background-position:0 -77px;}
+#reviews div.review div.ratings div.metrics div.metric span.balance {width:75px;background-position:0 -91px;}
+#reviews div.review div.ratings div.metrics div.metric span.technique {width:93px;background-position:0 -105px;}
+#reviews div.review div.ratings div.metrics div.metric span.mrating {font-size:1.6em;color:#666600;}
+#reviews div.review div.ratings div.metrics div.metric p {margin-top:5px;}
+#reviews div.review div.ratings div.general {float:left;width:43%;padding-left:20px;}
+#reviews div.review div.ratings div.metrics div.metric p,#reviews div.review div.ratings div.general p {}
+
+#reviews div.review_minimal div.ratings div.metrics {float:none;width:38%;margin:0 auto;border:none;margin-bottom:15px;}
+#reviews div.review_minimal div.ratings div.metrics div.metric {float:left;margin:0 40px 0 0;}
+#reviews div.review_minimal div.ratings div.metrics div.technique {margin-right:0;}
+#reviews div.review_minimal div.ratings div.metrics div.metric p {display:none;}
+#reviews div.review_minimal div.ratings div.general {float:none;width:auto;padding:10px 20px;border-top:1px dotted #1a1a1a;}
+#reviews div.review_minimal div.ratings div.general p {}
+
+#reviews div.review div.ratings img.crop_suggestion {display:block;margin:0 auto;}
+
+
+#reviews div.review .delete {position:absolute;bottom:0;right:0;}
+#reviews div.review .delete_start {position:absolute;background-position:right -168px;bottom:2px;right:2px;}
+#reviews div.review .delete_start:hover {background-position:right -144px;}
+#reviews div.review .delete_confirmation {position:absolute;right:5px;bottom:10px;}
+
+#reviews .mini_pagination {margin-top:15px;left:47%;}
+
+/* MY REVIEW */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#reviews div.my_review {background:#111111;}
+/*#reviews div.my_review div.header div.identity span.artist_dname,#reviews div.my_review div.header span.average_rating,#reviews div.my_review div.ratings div.metrics div.metric span.mrating {color:#996600;}*/

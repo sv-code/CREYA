@@ -1,0 +1,73 @@
+/* BUTTONS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+a.button_addphotos {display:block;width:161px;height:28px;background:#000000 url('/resources/images/button/buttons.slim.png') -1px 0 no-repeat;text-indent:-9999px;}
+a.button_addphotos:hover {background-position:-165px 0;}
+
+a.button_cancel_all {display:block;width:100px;height:29px;background:#000000 url('/resources/images/button/buttons.slim.png') -1px -28px no-repeat;text-indent:-9999px;}
+a.button_cancel_all:hover {background-position:-165px -28px;}
+
+a.button_save_all {display:block;width:100px;height:28px;background:#000000 url('/resources/images/button/buttons.slim.png') -1px -57px no-repeat;text-indent:-9999px;}
+a.button_save_all:hover {background-position:-165px -57px;}
+
+a.button_add_comment {display:block;width:110px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -86px no-repeat;text-indent:-9999px;}
+a.button_add_comment:hover {background-position:-165px -86px;}
+
+a.button_save_comment {display:block;width:110px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -115px no-repeat;text-indent:-9999px;}
+a.button_save_comment:hover {background-position:-165px -115px;}
+
+a.button_add_review {display:block;width:95px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -145px no-repeat;text-indent:-9999px;}
+a.button_add_review:hover {background-position:-165px -145px;}
+
+a.button_save_review {display:block;width:95px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -172px no-repeat;text-indent:-9999px;}
+a.button_save_review:hover {background-position:-165px -172px;}
+
+a.button_create,input.button_create {display:block;width:93px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -200px no-repeat;text-indent:-9999px;}
+a.button_create:hover,input.button_create:hover {background-position:-165px -200px;}
+a.button_create_disabled {background-position:-257px -200px;cursor:default;}
+a.button_create_disabled:hover {background-position:-257px -200px;}
+
+a.button span.cancel {display:block;width:46px;height:11px;background:url('/resources/images/button/buttons.slim.png') 0 -234px no-repeat;text-indent:-9999px;position:relative;top:8px;display:none;}
+a.button span.cancel:hover {background-position:0 -245px;}
+
+span.saving {width:60px;height:13px;display:block;background:url('/resources/images/button/buttons.slim.png') 0 -258px no-repeat;}
+
+a.button_login,input.button_login {display:block;width:95px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -307px no-repeat;text-indent:-9999px;}
+a.button_login:hover,input.button_login:hover {background-position:-165px -307px;}
+
+a.button_send,input.button_send {display:block;width:95px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -336px no-repeat;text-indent:-9999px;}
+a.button_send:hover,input.button_send:hover {background-position:-165px -336px;}
+
+a.button_save,input.button_save,.editable button {display:block;width:85px;height:29px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -362px no-repeat;text-indent:-9999px;border:none;}
+a.button_save:hover,input.button_save:hover,.editable button:hover {background-position:-165px -362px;}
+
+a.button_join {display:block;width:85px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -393px no-repeat;text-indent:-9999px;}
+a.button_join:hover {background-position:-165px -393px;}
+
+a.button_request_invite,input.button_request_invite {display:block;width:142px;height:28px;background:transparent url('/resources/images/button/buttons.slim.png') -1px -528px no-repeat;text-indent:-9999px;}
+a.button_request_invite:hover,input.button_request_invite:hover {background-position:-165px -528px;}
+
+a.button_create_a_group,input.button_create_a_group {display:block;width:147px;height:29px;background:url('/resources/images/button/buttons.slim.png') 0px -557px no-repeat;text-indent:-9999px;}
+a.button_create_a_group:hover,input.button_create_a_group:hover {background-position:-164px -557px;}
+
+a.button_create_a_post,input.button_create_a_post {display:block;width:147px;height:29px;background:url('/resources/images/button/buttons.slim.png') 0px -586px no-repeat;text-indent:-9999px;}
+a.button_create_a_post:hover,input.button_create_a_post:hover {background-position:-164px -586px;}
+
+a.button_addremove_photos {display:block;width:169px;height:29px;background:url('/resources/images/button/buttons.slim.png') -2px -647px no-repeat;text-indent:-9999px;}
+a.button_addremove_photos:hover {background-position:-170px -647px;}
+
+a.button_details {display:block;width:74px;height:18px;background:#000000 url('/resources/images/button/buttons.slim.png') 0 -709px no-repeat;text-indent:-9999px;}
+a.button_details:hover,a.button_details_open {/*background-position:-75px -708px;*/background-color:#1a1a1a;}
+a.button_details_open {background-position:-150px -709px;}
+
+a.button_go,input.button_go {display:block;width:100px;height:29px;background:url('/resources/images/button/buttons.slim.png') 0px -733px no-repeat;text-indent:-9999px;}
+a.button_go:hover,input.button_go:hover {background-position:-164px -733px;}
+
+a.button_agree_terms_of_service,input.button_agree_terms_of_service {display:block;width:388px;height:40px;background:url('/resources/images/button/buttons.slim.png') 0px -762px no-repeat;text-indent:-9999px;}
+a.button_agree_terms_of_service:hover,input.button_agree_terms_of_service:hover {background-position:-390px -762px;}
+
+/* BUTTONS PURE CSS OVERRIDE */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*
+a.button_create,a.button_create:hover {display:inline-block !important;background:#000000;border:2px solid #1a1a1a;-moz-border-radius:8px;-webkit-border-radius:8px;text-indent:0;width:auto;height:auto;padding:6px 10px;font-size:0.874em;font-family:Corbel;}
+a.button_create:hover {background:#111111;color:#6666666 !important;}
+*/

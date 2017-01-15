@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<script type="text/javascript" src="/resources/js/jquery-1.3.1.min.js"></script>
+	<script type="text/javascript" src="/resources/js/jquery-ui-personalized-1.6rc6.js"></script>
+	
+	<script type="text/javascript" src="/resources/js/shadowbox-jquery.js"></script>
+	<script type="text/javascript" src="/resources/js/shadowbox-2.0.js"></script>
+	<script type="text/javascript" src="/resources/js/jquery.jeditable.mini.js"></script>
+	<script type="text/javascript" src="/resources/js/jquery.json-1.3.min.js"></script>
+	<script type="text/javascript" src="/resources/js/photo.rating.js"></script>
+	<script type="text/javascript" src="/resources/js/photo.js"></script>
+	<script type="text/javascript" src="/resources/js/tooltip.js"></script>
+	<script type="text/javascript" src="/resources/js/js.js"></script>
+	<script type="text/javascript" src="/resources/js/Ajax/Ajax.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="/resources/css/sifr.css"/>
+	<script type="text/javascript" src="/resources/js/sifr.js"></script>
+	<script type="text/javascript" src="/resources/js/sifr-config.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="/resources/js/skin/classic/skin.css"/>
+	<script type="text/javascript" src="/resources/js/skin/classic/skin.js"></script>
+	
+	<script type="text/javascript" src="/resources/js/selectToUISlider.jQuery.js"></script>
+	<script type="text/javascript" src="/resources/js/jquery.hoverIntent.minified.js"></script>	
+		
+	<link rel="stylesheet" href="/resources/css/ui.slider.css" type="text/css" />
+	<link rel="Stylesheet" href="/resources/css/ui.slider.extras.css" type="text/css" />
+	
+	
+	<link href="/resources/css/reset.css" rel="stylesheet" type="text/css"/>
+	<!--link href="/resources/css/styles.css" rel="stylesheet" type="text/css"/-->
+	
+	<link href="/resources/css/black.css" rel="stylesheet" type="text/css"/>
+	<link href="/resources/css/photo.css" rel="stylesheet" type="text/css"/>
+	<link href="/resources/css/artist.css" rel="stylesheet" type="text/css"/>
+	<link href="/resources/css/dashboard.css" rel="stylesheet" type="text/css"/>
+	
+	<link REL="SHORTCUT ICON" HREF="favicon.ico" />
+
+	<title>Photo</title>
+
+</head>
+
+<body>
+	
+	<? $this->load->view('Embed.HEADER'); ?>
+	
+	<div id="bg-wrapper-black"></div>
+	<div id="wrapper2">
+		
+		<div id="main_black">
+			
+			<!-- Control Bar -->
+			<div id="controls_black" class="dim">
+				<div id="photo_info">
+					<? $this->load->view('Embed.INFO.Photo'); ?>
+				</div>
+				
+				<div id="userHeader"> 
+					<? $this->load->view('Embed.CONTROL.Artist'); ?>
+				</div>
+			</div>
+			<div class="content_divider" style="margin-bottom:4px;"></div>
+			<!-- END Control Bar -->
+			
+			<!-- Content Column -->
+			<div id="content_black">
+				
+				<? $this->load->view('Embed.CONTENT.Photo.The_Photo'); ?>
+				
+			</div>
+			<!-- END Content Column -->
+			
+			<div class="clear"></div>
+			<div class="content_divider" style="margin-top:2px;"></div>
+			<div class="content_secondary" style="padding-top:20px;">
+			
+				<div id="dashboard_meta" class="content_left dashboard_black left" style="margin-left:30px;">
+					
+					<div id="dashbox_photo">
+						
+						<? if($display_photo_ratings==true)
+						{
+							$this->load->view('Embed.DASHBOX.Photo.Ratings'); 
+						}?>
+					
+						<? $this->load->view('Embed.DASHBOX.Photo.Tags'); ?>
+						
+						<? $this->load->view('Embed.DASHBOX.Photo.Groups'); ?>
+						
+						<? $this->load->view('Embed.DASHBOX.Photo.EXIF'); ?>
+						
+						<? $this->load->view('Embed.DASHBOX.Photo.More'); ?>
+																	
+					</div>
+									
+				</div>
+				
+				<div class="left content_right"> 
+				
+					<? $data['comment_hidden_fields'] = 
+						array
+						(
+							array('id'=>'entity','value'=>$photo_details['PHOTO_ID'])
+						);
+						
+						$data['add_comment_url'] = '/photo/postcomment'; 
+						$data['remove_comment_url'] = '/photo/deletecomment'; 
+						
+						$data['url_reload'] = '/photo/'.$photo_details['PHOTO_ID'];
+					?>
+					<? $this->load->view('Embed.CONTENT.Comments',$data); ?>	
+										
+				</div>
+				
+				<!--div class="clear"></div-->
+			</div>
+		
+					
+		</div>
+		<!-- END Main -->
+			
+	</div>
+	<!-- END Wrapper 2 -->
+	
+	<? $this->load->view('Embed.FOOTER'); ?>	
+	
+</body>
+</html>

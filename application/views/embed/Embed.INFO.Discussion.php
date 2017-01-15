@@ -1,0 +1,1 @@
+<h2 class="header2 left"><?=$disc_details['disc_title']?> <span><?=$disc_details['disc_comment_count']?> comments</span></h2>
